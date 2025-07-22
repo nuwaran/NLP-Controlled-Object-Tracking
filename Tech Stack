@@ -1,0 +1,16 @@
+
+## 🛠️ Tech Stack
+
+- 🔤 **OpenAI API** (or HuggingFace Transformers)
+- 📦 **YOLOv11** (for object detection)
+- 🐍 **Python** (with OpenCV and Flask/Streamlit)
+- 📁 **CSV Logging System**
+- 🎥 **Webcam/Video Stream Input**
+
+## 📸 Example
+
+```bash
+Input: "Count red cars"
+→ LLM: Task=Count, Object=car, Color=red
+→ Tracking: 3 red cars detected at 00:01:35
+→ Log written: [timestamp, object, count]
