@@ -1,3 +1,4 @@
+# used to check wheather api is working or not
 from dotenv import load_dotenv
 import os
 
